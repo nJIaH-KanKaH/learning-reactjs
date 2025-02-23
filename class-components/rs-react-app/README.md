@@ -91,3 +91,31 @@ Technical Requirements
     <li>You can use CSS frameworks (e.g. Tailwind CSS).</li>
 </ul>   
 
+
+
+What i tried and done:
+<ul>
+    <li>
+        :heavy_check_mark: Eslint is set up, when lint command is run it doesn't produce any errors (if there are warnings score might be less) - 15 points
+    </li>
+    <li>
+        :heavy_check_mark: Prettier is set up, format:fix command fixes issues - 15 points
+    </li>
+    <li>
+        :heavy_check_mark: Husky is set up, linting is run on pre-commit - 10 points
+    </li>
+    <li>
+        :heavy_check_mark: Page is split into at least two sections, top one has Search input and "Search" button, main section displays the list of results from the selected api when page is opened for the first time (loader should be shown while app makes a call to the api) - 20 points
+    </li>
+    <li>
+        :heavy_check_mark: When user types something to the Search input and clicks "Search" button, a loader is displayed and the list is changed according to the response results for a provided search term - 15 points
+    </li>
+    <li>
+        :heavy_check_mark: The search term typed into the Search input is saved in the LS when user clicks on "Search" button (check it by closing the tab and open the app in the new one - the initial call should contain previously entered search term) - 15 points
+    </li>
+    <li>
+        :heavy_check_mark: Application is wrapped with ErrorBoundary, which logs error to a console and shows a fallback UI. There should be a button to throw an error - 10 points
+    </li>
+</ul>
+
+  i have created search input and search button that raises event to parent component, and handler for that event loads 10 elements from list, i added some variables for pagination and some pagination using provided next|previous links by SWapi service, maybe i should have also added disabled attribute or d-none class for next|previous buttons according to parsed next|previous link(if it is empty), and there were some places in code that require some work on adding typization (for example "results: []" almost everywhere, i was not sure about properties of detail element until i created the detail element) and i didn't use interfaces
