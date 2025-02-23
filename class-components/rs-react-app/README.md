@@ -93,10 +93,10 @@ Technical Requirements
 
 
 
-What i tried and done:
+What i tried and done ():
 <ul>
     <li>
-        :heavy_check_mark: Eslint is set up, when lint command is run it doesn't produce any errors (if there are warnings score might be less) - 15 points
+        :heavy_check_mark: Eslint is set up, when lint command is run it doesn't produce any errors (if there are warnings score might be less) ///- 15 points
     </li>
     <li>
         :heavy_check_mark: Prettier is set up, format:fix command fixes issues - 15 points
