@@ -2,7 +2,7 @@
 It is a first task from course, the main goal was to touch some class component approach in React development
 
 The task was:
-```<br>
+<br>
 React project setup. Class components. Error boundary.
 Application Requirements
 
@@ -90,4 +90,4 @@ Technical Requirements
     <li>Use class components to get access to lifecycle events or state. Using hooks is forbidden at this stage. Patience, it won't last long.</li>
     <li>You can use CSS frameworks (e.g. Tailwind CSS).</li>
 </ul>   
-```
+
