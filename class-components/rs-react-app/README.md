@@ -114,7 +114,7 @@ What tasks i tried to do and i hope i've done:
         :heavy_check_mark: The search term typed into the Search input is saved in the LS when user clicks on "Search" button (check it by closing the tab and open the app in the new one - the initial call should contain previously entered search term)
     </li>
     <li>
-        :heavy_check_mark: Application is wrapped with ErrorBoundary, which logs error to a console and shows a fallback UI. There should be a button to throw an error
+        :ballot_box: Application is wrapped with ErrorBoundary, which logs error to a console and shows a fallback UI. There should be a button to throw an error (i have added ErrorBoundary class component and it catches and prints an error, looks like i didn't make any cool fallback UI and there is no way to remove an error from page without reloading page)
     </li>
 </ul>
   i took some preloader from internet.
