@@ -117,5 +117,5 @@ What tasks i tried to do and i hope i've done:
         :heavy_check_mark: Application is wrapped with ErrorBoundary, which logs error to a console and shows a fallback UI. There should be a button to throw an error
     </li>
 </ul>
-
-  i have created search input and search button that raises event to parent component, and handler for that event loads 10 elements from list, i added some variables for pagination and some pagination using provided next|previous links by SWapi service, maybe i should have also added disabled attribute or d-none class for next|previous buttons according to parsed next|previous link(if it is empty), and there were some places in code that require some work on adding typization (for example "results: []" almost everywhere, i was not sure about properties of detail element until i created the detail element) and i didn't use interfaces
+  i took some preloader from internet.
+  i have created search input and search button that raises event to parent component, and handler for that event loads 10 elements from list, i added some variables for pagination and some pagination using provided next|previous links by SWapi service, maybe i should have also added disabled attribute or d-none class for next|previous buttons according to parsed next|previous link(if it is empty), and there were some places in code that require some work on adding typization (for example "results: []" almost everywhere, i was not sure about properties of detail element until i created the detail element) and i didn't use interfaces.
